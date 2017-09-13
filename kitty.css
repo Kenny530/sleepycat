@@ -1,0 +1,15 @@
+@media only screen and (min-width:250px) {
+    body{ 
+        content:url(images/kitten-small.png);
+    }
+}
+@media only screen and (min-width:680px) {
+    body{ 
+        content:url(images/kitten-medium.png);
+    }
+}
+@media only screen and (min-width:800px) {
+    body{ 
+        content:url(images/kitten-large.png);
+    }
+}
