@@ -1,5 +1,5 @@
 @media only screen and (min-width:250px) {
-    body{ 
+    .regular{ 
         content:url(images/kitten-small.png);
     }
 }
@@ -9,7 +9,7 @@
     }
 }
 @media only screen and (min-width:500px) {
-    body{ 
+    .regular{ 
         content:url(images/kitten-medium.png);
     }
 }
@@ -18,13 +18,23 @@
         background-image:url(images/bird.jpg);
     }
 }
+@media only screen and (min-width:500px) {
+    .popup{ 
+        content:url(images/kittyloaf.gif);
+    }
+}
 @media only screen and (min-width:800px) {
-    body{ 
+    .regular{ 
         content:url(images/kitten-large.png);
     }
 }
 @media only screen and (min-width:800px) {
     body{ 
         background-image:url(images/cat.jpg);
+    }
+}
+@media only screen and (min-width:800px) {
+    .popup{ 
+        content:url(images/kittyloaf.gif);
     }
 }
