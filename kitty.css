@@ -1,15 +1,30 @@
-@media only screen and (min-width:250px) {
+@media only screen and (min-width:350px) {
     body{ 
-        content:url(kitten-small.png);
+        content:url(images/kitten-small.png);
     }
 }
-@media only screen and (min-width:680px) {
+@media only screen and (min-width:350px) {
     body{ 
-        content:url(kitten-medium.png);
+        background-image:url(images/dog.jpg);
     }
 }
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:650px) {
     body{ 
-        content:url(kitten-large.png);
+        content:url(images/kitten-medium.png);
+    }
+}
+@media only screen and (min-width:650px) {
+    body{ 
+        background-image:url(images/bird.jpg);
+    }
+}
+@media only screen and (min-width:900px) {
+    body{ 
+        content:url(images/kitten-large.png);
+    }
+}
+@media only screen and (min-width:900px) {
+    body{ 
+        background-image:url(images/cat.jpg);
     }
 }
