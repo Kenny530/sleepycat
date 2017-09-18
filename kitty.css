@@ -1,39 +1,38 @@
-@media only screen and (min-width:250px) {
+body{
+    text-align:center;
+}
+
+@media only screen and (min-width:1000px) {
     .regular{ 
         content:url(images/kitten-small.png);
-    }
-}
-@media only screen and (min-width:250px) {
-    body{ 
+	}
+	body{ 
         background-image:url(images/dog.jpg);
     }
 }
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:1200px) {
     .regular{ 
         content:url(images/kitten-medium.png);
     }
-}
-@media only screen and (min-width:500px) {
     body{ 
         background-image:url(images/bird.jpg);
     }
 }
-@media only screen and (min-width:500px) {
-    .popup{ 
-        content:url(images/kittyloaf.gif);
-    }
-}
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:1400px) {
     .regular{ 
         content:url(images/kitten-large.png);
     }
-}
-@media only screen and (min-width:800px) {
     body{ 
         background-image:url(images/cat.jpg);
     }
 }
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:999px) {
+    .popup{ 
+        content:url(images/kittyloaf.gif);
+    }
+}
+
+@media only screen and (min-width:700px) {
     .popup{ 
         content:url(images/kittyloaf.gif);
     }
